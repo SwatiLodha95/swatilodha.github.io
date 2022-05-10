@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            height: 12vh;
+            width: 100vw;
+            background-color: cadetblue;
+            position: fixed;
+
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 1rem;
+            margin-left: 5rem;
+            border-radius: 5rem;
+            color: burlywood;
+            transition: all ease 5sec;
+            opacity: 1;
+        }
+
+        ul {
+            width:50rem;
+            margin: auto;
+            margin: top  .5rem;
+            border: 1px solid red;
+        }
+
+        ul li:hover {
+            background-color: chartreuse;
+            cursor: pointer;
+            transition: all ease 2sec;
+        }
+/* 
+        ul :nth-last-child(even) {
+            background-color: green;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+        </div>
+</body>
+
+</html>

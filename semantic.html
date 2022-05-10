@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        #mainheader {
+            height: 10vh;
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        aside {
+            height: 80vh;
+            width: 30%;
+            background-color: wheat;
+            text-align: center;
+            float: left;
+        }
+
+        #subheader {
+            height: 10vh;
+            background-color: violet;
+            text-align: center;
+        }
+
+        article {
+            height: 60vh;
+            background-color: yellow;
+            text-align: center;
+        }
+
+        .subfooter {
+            height: 10vh;
+            background-color: turquoise;
+            text-align: center;
+        }
+
+        .mainfooter {
+            height: 10vh;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header id="mainheader">
+        header + nav
+    </header>
+    
+    
+    <section>
+        <aside>aside</aside>
+        <header id="subheader">Sub header</header>
+        <article>article</article>
+        <footer class="subfooter">sub footer</footer>
+    </section>
+
+    <footer class="mainfooter">Main Footer</footer>
+</body>
+
+</html>
